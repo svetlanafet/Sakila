@@ -19,9 +19,9 @@
     <PropertyValue Name="Delimiter" xml:space="preserve">,,</PropertyValue>
     <PropertyValue Name="ColumnWidth" xml:space="preserve">50</PropertyValue>
     <PropertyValue Name="QuoteChar" xml:space="preserve">"</PropertyValue>
-    <PropertyValue Name="SkipLinesCount" xml:space="preserve">2</PropertyValue>
+    <PropertyValue Name="SkipLinesCount" xml:space="preserve">1</PropertyValue>
     <PropertyValue Name="ImportEvenLinesOnly">false</PropertyValue>
-    <PropertyValue Name="HeaderPosition" xml:space="preserve">2</PropertyValue>
+    <PropertyValue Name="HeaderPosition" xml:space="preserve">1</PropertyValue>
     <PropertyValue Name="OpenScriptInEditor">false</PropertyValue>
     <PropertyValue Name="AddTimestampToSynchronizationFileName">false</PropertyValue>
     <PropertyValue Name="SynchronizationFileName" xml:space="preserve">D:\Temp\DevOps_MySQL\dataimport.sql</PropertyValue>

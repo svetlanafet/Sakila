@@ -30,7 +30,7 @@
     <Table Name="actor">
       <Checked>true</Checked>
       <Settings>
-        <Truncate>true</Truncate>
+        <Truncate>false</Truncate>
         <RowsToGenerate>0</RowsToGenerate>
         <PopulationDetails>
           <PopulationType>RowsCount</PopulationType>
@@ -52,7 +52,7 @@
             <Increment xmlns:q1="http://www.w3.org/2001/XMLSchema" p6:type="q1:unsignedShort">1</Increment>
             <ValueDistributionMode>Sequential</ValueDistributionMode>
             <SeedValue>1</SeedValue>
-            <MinValue>1</MinValue>
+            <MinValue>11</MinValue>
             <MaxValue>65535</MaxValue>
             <UseDefault>false</UseDefault>
           </GeneratorOptions>
