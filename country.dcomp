@@ -7,13 +7,11 @@
     <ProviderVersion>9.0.394.0</ProviderVersion>
     <SchemaVersion>2.0</SchemaVersion>
   </Properties>
-  <Source Type="Database">
-    <ConnectionModel>
-      <PropertyValue Name="Database">59f90733-4d68-4fdf-82a7-f0fcbf5460aa</PropertyValue>
-      <PropertyValue Name="ConnectionString" xml:space="preserve">User Id=su;password=su;Host=dbfmysrv;Character Set=utf8</PropertyValue>
-      <PropertyValue Name="ExecutionTimeout">0</PropertyValue>
-    </ConnectionModel>
-    <Schema>sakila</Schema>
+  <Source Type="ScriptsFolder">
+    <XmlTagFolderPath>D:\Temp\DevOps_MySQL\sakila</XmlTagFolderPath>
+    <XmlTagServerVersion>8.0.99</XmlTagServerVersion>
+    <XmlTagServerType>MySql</XmlTagServerType>
+    <XmlTagCollation>utf8_general_ci</XmlTagCollation>
   </Source>
   <Target Type="Database">
     <ConnectionModel>
@@ -62,9 +60,7 @@
     <PropertyValue Name="CheckOnlyInTarget">true</PropertyValue>
     <PropertyValue Name="CheckIdentical">true</PropertyValue>
   </Options>
-  <ModifiedObjects>
-    <Object Name="actor" Type="Table" InSource="False" Different="False" InTarget="False" />
-  </ModifiedObjects>
+  <ModifiedObjects />
   <SynchronizationOptions>
     <PropertyValue Name="BulkInsert">true</PropertyValue>
     <PropertyValue Name="LimitBulk">true</PropertyValue>
@@ -98,8 +94,8 @@
     <PropertyValue Name="ExternalScriptAfter" xml:space="preserve" />
     <PropertyValue Name="IncludeStatementUSEAfter">false</PropertyValue>
     <PropertyValue Name="UseDelimiter">false</PropertyValue>
-    <PropertyValue Name="SynchronizeType">0</PropertyValue>
-    <PropertyValue Name="SynchronizationFileName" xml:space="preserve">D:\Temp\DevOps_MySQL\sakila vs sakila2 (dbfmysrv-3306).sql</PropertyValue>
+    <PropertyValue Name="SynchronizeType">2</PropertyValue>
+    <PropertyValue Name="SynchronizationFileName" xml:space="preserve" />
     <PropertyValue Name="SynchronizationEditorFileName" xml:space="preserve" />
     <PropertyValue Name="OpenScriptInEditor">false</PropertyValue>
     <PropertyValue Name="RefreshAfterSynchronization">false</PropertyValue>

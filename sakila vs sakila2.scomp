@@ -8,7 +8,7 @@
     <SchemaVersion>1.6</SchemaVersion>
   </Properties>
   <Source Type="ScriptsFolder">
-    <XmlTagFolderPath>D:\Temp\DevOps_MySQL</XmlTagFolderPath>
+    <XmlTagFolderPath>D:\Temp\DevOps_MySQL\sakila</XmlTagFolderPath>
     <XmlTagServerVersion>8.0.99</XmlTagServerVersion>
     <XmlTagServerType>MySql</XmlTagServerType>
     <XmlTagCollation>utf8_general_ci</XmlTagCollation>
